@@ -5,3 +5,10 @@
   },
   "exclude": ["src/**/*.spec.*", "src/**/testing/**/*", "src/test/**/*"]
 }
+*Linux/Unix*
+dig <DOMAIN_NAME> +trace @1.1.1.1
+dig <DOMAIN_NAME> +trace @8.8.8.8
+
+*Windows*
+nslookup <DOMAIN_NAME> 1.1.1.1
+nslookup <DOMAIN_NAME> 8.8.8.8
